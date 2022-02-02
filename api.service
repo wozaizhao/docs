@@ -1,0 +1,16 @@
+[Unit]
+Description=描述，随便起名字
+Requires=network.target
+
+[Service]
+Type=simple
+User=root
+# 应用的工作目录，这样就能读到配置文件了
+WorkingDirectory=/data/go/src/wozaizhao.com/gate
+# 应用可执行文件地址
+ExecStart=/data/go/src/wozaizhao.com/gate/gate
+Restart="always"
+ExecReload=/bin/kill -SIGINT $MAINPID
+
+[Install]
+WantedBy=multi-user.target
