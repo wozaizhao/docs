@@ -59,20 +59,20 @@ wozaizhao.com是我很久以前注册的一个域名，后来也相继注册了�
 
 ### H5端
 
-![](https://static.wozaizhao.com/screen/h5-login.jpg) 登录
-![](https://static.wozaizhao.com/screen/h5-geetest.jpg) 滑块验证
+![](https://img.wozaizhao.com/screen/h5-login.jpg) 登录
+![](https://img.wozaizhao.com/screen/h5-geetest.jpg) 滑块验证
 
-![](https://static.wozaizhao.com/screen/h5-login-submit.jpg) 登录提交
-![](https://static.wozaizhao.com/screen/h5-me.jpg) 我的
-![](https://static.wozaizhao.com/screen/h5-profile.jpg) 个人信息
-![](https://static.wozaizhao.com/screen/h5-update.jpg) 更新
+![](https://img.wozaizhao.com/screen/h5-login-submit.jpg) 登录提交
+![](https://img.wozaizhao.com/screen/h5-me.jpg) 我的
+![](https://img.wozaizhao.com/screen/h5-profile.jpg) 个人信息
+![](https://img.wozaizhao.com/screen/h5-update.jpg) 更新
 
 
 ### 小程序端
 
-![](https://static.wozaizhao.com/screen/weapp-login.jpg) 登录
-![](https://static.wozaizhao.com/screen/weapp-me.jpg) 我的
-![](https://static.wozaizhao.com/screen/webview-me.jpg) webview 我的
+![](https://img.wozaizhao.com/screen/weapp-login.jpg) 登录
+![](https://img.wozaizhao.com/screen/weapp-me.jpg) 我的
+![](https://img.wozaizhao.com/screen/webview-me.jpg) webview 我的
 
 小程序界面基本同h5端一样，先写的h5端，然后移植为小程序代码，tailwind直接复制h5端生成的少量tailwind css代码。
 
