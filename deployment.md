@@ -9,7 +9,7 @@
 - 如果需要七牛云存储服务，你需要注册一个七牛云帐号，免费（每月免费存储和流量足够用了）。
 - https证书，可以使用云厂商的免费证书或letsencrypt
 
-基本上就域名和服务器要钱，域名一年60左右。服务器可以看看云服务厂商的活动，一般新用户价钱是不贵的。这里推荐阿里云，只是个人偏好，使用任何云服务都是可以的，国内的腾讯云、华为云等等，甚至包括aws、Microsoft Azure等（使用银行卡注册，成功后可以免费使用一年云主机）
+基本上就域名和服务器要钱，域名一年60左右。服务器可以看看云服务厂商的活动，一般新用户价钱是不贵的。这里推荐阿里云，只是个人偏好，使用任何云服务都是可以的，国内的腾讯云、华为云等等，甚至包括aws、Microsoft Azure等（使用银行卡注册，成功后可以免费使用一年云主机，缺点是服务器在境外，有点慢）
 
 ### h5端布署
 - 下载项目或git clone项目到本地
@@ -33,16 +33,17 @@
 - 下载项目或git clone项目到本地
 - npm install
 - 在小程序开发工具中，构建npm
-- 在小程序后端，配置h5域名为业务域名，配置后端域名为request域名
+- 在小程序后台，配置h5域名为业务域名，配置后端域名为request域名
 - 使用你的小程序id,上传并查看小程序
 
-### 后端布署
+### 后端布署 
+因为我的服务器上已经有一个叫api的后端服务，所以这个项目的后端我起了个另外的名字gate，一般命名为api
 - 安装go环境
 - 下载项目或git clone项目到本地
 - 配置nginx
-    参见api.conf
+    参见gate.conf
 - 在项目目录运行 go run main.go
 - 推荐以服务的方式布署后端应用
-    可以使用 service 服务名 start 启动 service 服务名 stop 停止 service 服务名 status 查看 service 服务名 restart 重启
+    在 /etc/systemed/system 增加service文件，参见gate.service
 - github actions secrets
     除REMOTE_TARGET外同h5，REMOTE_TARGET为可执行文件目录
