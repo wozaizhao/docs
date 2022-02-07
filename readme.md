@@ -31,21 +31,21 @@ wozaizhao.com是我很久以前注册的一个域名，后来也相继注册了�
 
 ### 技术特点
 - **代码检查及格式化**
-    h5及小程序使用eslint检查代码，使用prettier格式化代码；go自带代码检查及格式化。
+    > h5及小程序使用eslint检查代码，使用prettier格式化代码；go自带代码检查及格式化。
 - **Github Actions 自动化部署**
-    提交代码即自动部署
+    > 提交代码即自动部署
 - **vue3+vite**
-    使用vue3及vite来构建h5端
+    > 使用vue3及vite来构建h5端
 - vant+**tailwind**
-    h5端使用vant组件库，同时搭配tailwind辅助，基本不需要写css。
+    > h5端使用vant组件库，同时搭配tailwind辅助，基本不需要写css。
 - jweixin
-    h5端在微信中打开时，通过jssdk使用公众号接口
+    > h5端在微信中打开时，通过jssdk使用公众号接口
 - 在小程序中使用async await
-    使用async await使代码逻辑更合理清晰
+    > 使用async await使代码逻辑更合理清晰
 - jwt
-    使用jwt token验证用户
+    > 使用jwt token验证用户
 - **https**
-    使用接口及资源使用https，全为免费方案：阿里云免费证书及letsencrypt服务
+    > 使用接口及资源使用https，全为免费方案：阿里云免费证书及letsencrypt服务
 
 ### H5端
 
