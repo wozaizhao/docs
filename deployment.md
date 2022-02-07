@@ -36,12 +36,24 @@
 - 在小程序后台，配置h5域名为业务域名，配置后端域名为request域名
 - 使用你的小程序id,上传并查看小程序
 
+### mysql redis
+推荐使用docker来运行mysql和redis，避免了繁琐的配置
+```
+// 安装mysql
+docker run --name mysql8 -e MYSQL_ROOT_PASSWORD=your password -p 3306:3306 -d mysql:8
+
+// 安装redis
+docker run --name redis -d redis
+```
+
 ### 后端布署 
 因为我的服务器上已经有一个叫api的后端服务，所以这个项目的后端我起了个另外的名字gate，一般命名为api
 - 安装go环境
 - 下载项目或git clone项目到本地
 - 配置nginx
     参见gate.conf
+- 在mysql创建数据库    
+- 配置config.yarm 参见config.yaml.default
 - 在项目目录运行 go run main.go
 - 推荐以服务的方式布署后端应用
     在 /etc/systemed/system 增加service文件，参见gate.service
