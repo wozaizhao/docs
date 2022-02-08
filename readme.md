@@ -1,10 +1,5 @@
 
 
-<style>
-img{
-    max-width: 200px;
-}
-</style>
 ### 我在找是什么
 wozaizhao.com是我很久以前注册的一个域名，后来也相继注册了我在找公众号，我在找小程序。都是用来做一些实验性质的项目。
 
@@ -63,21 +58,19 @@ wozaizhao.com是我很久以前注册的一个域名，后来也相继注册了�
     > 使用接口及资源使用https，全为免费方案：阿里云免费证书及letsencrypt服务
 
 ### H5端
-
-![](https://img.wozaizhao.com/screen/h5-login.jpg) 登录
-![](https://img.wozaizhao.com/screen/h5-geetest.jpg) 滑块验证
-
-![](https://img.wozaizhao.com/screen/h5-login-submit.jpg) 登录提交
-![](https://img.wozaizhao.com/screen/h5-me.jpg) 我的
-![](https://img.wozaizhao.com/screen/h5-profile.jpg) 个人信息
-![](https://img.wozaizhao.com/screen/h5-update.jpg) 更新
-
+| screen | screen | screen |
+| ------ | ------ | ------ |
+| ![](https://img.wozaizhao.com/screen/h5-login.jpg) | ![](https://img.wozaizhao.com/screen/h5-geetest.jpg) ｜ ![](https://img.wozaizhao.com/screen/h5-login-submit.jpg) ｜
+｜ 登录 ｜ 滑块验证 ｜ 登录提交 ｜
+｜ ![](https://img.wozaizhao.com/screen/h5-me.jpg) ｜ ![](https://img.wozaizhao.com/screen/h5-profile.jpg) ｜ ![](https://img.wozaizhao.com/screen/h5-update.jpg) ｜
+｜ 我的 ｜ 个人信息 ｜ 更新 ｜
 
 ### 小程序端
 
-![](https://img.wozaizhao.com/screen/weapp-login.jpg) 登录
-![](https://img.wozaizhao.com/screen/weapp-me.jpg) 我的
-![](https://img.wozaizhao.com/screen/webview-me.jpg) webview 我的
+| screen | screen | screen |
+| ------ | ------ | ------ |
+｜ ![](https://img.wozaizhao.com/screen/weapp-login.jpg) ｜ ![](https://img.wozaizhao.com/screen/weapp-me.jpg) ｜ ![](https://img.wozaizhao.com/screen/webview-me.jpg) ｜
+｜ 登录 ｜ 我的 ｜ webview 我的 ｜
 
 小程序界面基本同h5端一样，先写的h5端，然后移植为小程序代码，tailwind直接复制h5端生成的少量tailwind css代码。
 
