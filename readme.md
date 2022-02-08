@@ -58,19 +58,20 @@ wozaizhao.com是我很久以前注册的一个域名，后来也相继注册了�
     > 使用接口及资源使用https，全为免费方案：阿里云免费证书及letsencrypt服务
 
 ### H5端
+
 | screen | screen | screen |
 | ------ | ------ | ------ |
-| ![](https://img.wozaizhao.com/screen/h5-login.jpg) | ![](https://img.wozaizhao.com/screen/h5-geetest.jpg) ｜ ![](https://img.wozaizhao.com/screen/h5-login-submit.jpg) ｜
-｜ 登录 ｜ 滑块验证 ｜ 登录提交 ｜
-｜ ![](https://img.wozaizhao.com/screen/h5-me.jpg) ｜ ![](https://img.wozaizhao.com/screen/h5-profile.jpg) ｜ ![](https://img.wozaizhao.com/screen/h5-update.jpg) ｜
-｜ 我的 ｜ 个人信息 ｜ 更新 ｜
+|![](https://img.wozaizhao.com/screen/h5-login.jpg)|![](https://img.wozaizhao.com/screen/h5-geetest.jpg)|![](https://img.wozaizhao.com/screen/h5-login-submit.jpg)|
+| 登录 | 滑块验证 | 登录提交 |
+|![](https://img.wozaizhao.com/screen/h5-me.jpg)|![](https://img.wozaizhao.com/screen/h5-profile.jpg)|![](https://img.wozaizhao.com/screen/h5-update.jpg)|
+| 我的 | 个人信息 | 更新 |
 
 ### 小程序端
 
 | screen | screen | screen |
 | ------ | ------ | ------ |
-｜ ![](https://img.wozaizhao.com/screen/weapp-login.jpg) ｜ ![](https://img.wozaizhao.com/screen/weapp-me.jpg) ｜ ![](https://img.wozaizhao.com/screen/webview-me.jpg) ｜
-｜ 登录 ｜ 我的 ｜ webview 我的 ｜
+| ![](https://img.wozaizhao.com/screen/weapp-login.jpg) | ![](https://img.wozaizhao.com/screen/weapp-me.jpg) | ![](https://img.wozaizhao.com/screen/webview-me.jpg) |
+| 登录 | 我的 | webview 我的 |
 
 小程序界面基本同h5端一样，先写的h5端，然后移植为小程序代码，tailwind直接复制h5端生成的少量tailwind css代码。
 
