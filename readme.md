@@ -108,4 +108,6 @@ wozaizhao.com是我很久以前注册的一个域名，后来也相继注册了�
 - [阿里云](https://aliyun.com/) 云服务商，项目的前后端都布署在阿里云服务器上，数据库是跑云服务器的docker中，同时项目的短信服务、域名等用的也是阿里云的
 - [七牛云](https://www.qiniu.com/) 云计算及数据服务提供商，项目中的存储，主要是图片存储用的是七牛云
 
-### 欢迎与我联系 [https://github.com/xchao0213](https://github.com/xchao0213) wechat id: beetle2013
+### 欢迎与我联系
+项目地址 [https://github.com/wozaizhao](https://github.com/wozaizhao)
+我的微信 beetle2013
