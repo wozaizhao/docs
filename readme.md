@@ -77,6 +77,13 @@ wozaizhao.com是我很久以前注册的一个域名，后来也相继注册了�
 
 小程序界面基本同h5端一样，先写的h5端，然后移植为小程序代码，tailwind直接复制h5端生成的少量tailwind css代码。
 
+### dark mode
+
+| screen | screen | screen |
+| ------ | ------ | ------ |
+|![](https://img.wozaizhao.com/screen/weapp-login-dark.jpg)|![](https://img.wozaizhao.com/screen/weapp-me-dark.jpg)|![](https://img.wozaizhao.com/screen/weapp-settings-dark.jpg)|
+| 登录 | 我的 | 设置 |
+
 ### 服务端
 主要使用以下库
 - [github.com/alibabacloud-go/dysmsapi-20170525/v2](github.com/alibabacloud-go/dysmsapi-20170525/v2) 阿里云通信sdk
